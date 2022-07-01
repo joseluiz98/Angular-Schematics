@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchematicsExampleService",
+  "title": "Automatizazr instalação da lib",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-prompt": "Qual o seu nome? :)"
+    },
+    "includeOnAppModule": {
+      "type": "boolean",
+      "x-prompt": "Deseja incluir no app.module.ts?"
+    }
+  }
+}
